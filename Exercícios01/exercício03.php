@@ -12,7 +12,11 @@
         </form>
 
         <?php
-            $baseMaior = $_POST ["B"]
+            $baseMaior = $_POST ["B"];
+            $baseMenor = $_POST ["b"];
+            $altura = $_POST ["h"];
+            $area = ($baseMaior + $baseMenor) * $altura / 2;
+            echo "A área do trapézio é:  $area"
         ?>
     </body>
 </html>
