@@ -1,0 +1,19 @@
+Cole esse código
+# Run as administrator...
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
+
+Cole esse código dentro do seu projeto
+composer install
+
+Criar arquivos que dependem do Javascript
+npm install
+
+Cria os executáveis deles
+npm run build
+
+Copie o arquivo .env.example no Visual Studio Code 
+Remomeie o arquivo para .env
+
+php artisan key:generate
+
+php artisan migrate
