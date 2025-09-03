@@ -1,0 +1,4 @@
+se der erro de segurança é só digitar Set-ExecutionPolicy RemoteSigned
+para rodar as configurações automaticamente da pasta configurações laravel é só entrar nela no terminal e rodar normalmente (enter)
+
+php artisan make:view teste
